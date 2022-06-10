@@ -1,0 +1,26 @@
+@import "../../common/color.scss";
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.text_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+
+.title {
+    color: $primaryFontColor;
+    line-height: 20px;
+}
+
+.location_text {
+    color: $secondaryFontColor;
+    margin-top: .25rem;
+    line-height: 16px;
+    font-size: 14px;
+}

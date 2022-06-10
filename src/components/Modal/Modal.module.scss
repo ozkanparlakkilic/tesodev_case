@@ -1,0 +1,47 @@
+.modal_box {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    flex-direction: column;
+    background-color: rgba(196, 196, 196, 1);
+    border-radius: 10px;
+    position: absolute;
+    padding: 15px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.modal_icon_box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal_content_box {
+    display: flex;
+    align-items: center;
+}
+
+.modal_text_box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.modal_error_title {
+    font-weight: 700;
+}
+
+.modal_error_description {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(9, 10, 10, 1);
+}
+
+.modal_error_button {
+    background-color: rgba(255, 78, 120, 1);
+    font-size: 15px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 30px;
+}

@@ -1,0 +1,116 @@
+@import "../common/color.scss";
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.input_container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 149px;
+    height: 63px;
+}
+
+.main {
+    width: 70%;
+    max-width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.orderBy {
+    display: flex;
+    background-color: $orderBy-color;
+    color: $primaryFontColor;
+    padding: 5px 20px;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    width: max-content;
+}
+
+.data_box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.item_box {
+    height: 500px;
+}
+
+.order {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-direction: column;
+    position: relative;
+}
+
+.order_text {
+    color: $primaryFontColor;
+    margin-left: .5rem;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.orderBy_dropdown_box {
+    margin-top: 10px;
+    border: 1px solid $border-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: $primaryFontColor;
+    box-shadow: 4px 6px 12px 4px rgba(0, 0, 0, 0.2);
+    width: max-content;
+    position: absolute;
+    top: 30px;
+    right: -20px;
+}
+
+.orderBy_dropdown_box_item {
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover,
+    &:active {
+        background-color: rgba(179, 179, 179, 1);
+        color: #fff;
+        border-radius: 10px;
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.selected {
+    background-color: rgba(179, 179, 179, 1);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}

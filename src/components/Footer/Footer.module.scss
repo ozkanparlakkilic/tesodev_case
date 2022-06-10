@@ -1,0 +1,28 @@
+@import "../../common/color.scss";
+
+
+.wrapper {
+    background-color: $footer-color;
+    display: flex;
+    align-items: stretch;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.content_box {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+}
